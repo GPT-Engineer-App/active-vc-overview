@@ -30,6 +30,37 @@ const Index = () => {
 
   return (
     <Box p={5}>
+      <Box borderWidth="1px" borderRadius="lg" p={5} mb={5}>
+        <Text fontSize="xl" fontWeight="bold" mb={3}>
+          Investments Over Time
+        </Text>
+        <SimpleGrid columns={2} spacing={10}>
+          <Box borderWidth="1px" borderRadius="lg" p={4}>
+            <Text>2018</Text>
+            <Text fontWeight="bold">100M USD</Text>
+          </Box>
+          <Box borderWidth="1px" borderRadius="lg" p={4}>
+            <Text>2019</Text>
+            <Text fontWeight="bold">200M USD</Text>
+          </Box>
+          <Box borderWidth="1px" borderRadius="lg" p={4}>
+            <Text>2020</Text>
+            <Text fontWeight="bold">300M USD</Text>
+          </Box>
+          <Box borderWidth="1px" borderRadius="lg" p={4}>
+            <Text>2021</Text>
+            <Text fontWeight="bold">400M USD</Text>
+          </Box>
+          <Box borderWidth="1px" borderRadius="lg" p={4}>
+            <Text>2022</Text>
+            <Text fontWeight="bold">500M USD</Text>
+          </Box>
+          <Box borderWidth="1px" borderRadius="lg" p={4}>
+            <Text>2023</Text>
+            <Text fontWeight="bold">600M USD</Text>
+          </Box>
+        </SimpleGrid>
+      </Box>
       <Flex justifyContent="space-between" alignItems="center" mb={5}>
         <Heading as="h1" size="xl">
           Top 20 Early Stage Investors in Sweden
